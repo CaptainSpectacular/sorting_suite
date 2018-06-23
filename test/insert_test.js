@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const insertSort = require("../insert_sort");
+const insertSort = require("../lib/insert_sort");
 
 describe("insert sort", function() {
     it ("sorts an unsorted array", function() {

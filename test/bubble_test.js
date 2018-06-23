@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const bubbleSort = require("../bubble_sort");
+const bubbleSort = require("../lib/bubble_sort");
 
 describe("bubble sort", function() {
     it ("sorts an unsorted array", function() {

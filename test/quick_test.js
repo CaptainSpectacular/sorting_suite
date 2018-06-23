@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const quickSort = require("../quick_sort");
+const quickSort = require("../lib/quick_sort");
 
 describe("quick sort", function () {
     it ("Sorts an array", function() {

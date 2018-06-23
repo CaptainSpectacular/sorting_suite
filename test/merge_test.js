@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const mergeSort = require("../merge_sort");
+const mergeSort = require("../lib/merge_sort");
 
 describe("Merge sort", function () {
     it ("Sorts an array", function() {
